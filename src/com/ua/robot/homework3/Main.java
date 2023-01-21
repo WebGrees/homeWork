@@ -3,7 +3,7 @@ package com.ua.robot.homework3;
 public class Main {
     public static void main(String[] args) {
         int age = 50;
-        int ageChange = 2;
+        int ageChange = 2; //important value
 
         int twiceYounger = age / ageChange;
         int twiceOlder = age * ageChange;
