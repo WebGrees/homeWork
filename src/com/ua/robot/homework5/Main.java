@@ -2,6 +2,7 @@ package com.ua.robot.homework5;
 
 public class Main {
     public static void main(String[] args) {
+
         int number1 = 30;
         int number2 = 30;
 
