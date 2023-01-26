@@ -27,7 +27,9 @@ public class Main {
             System.out.println(number1 + " is even");
         } else {
             System.out.println(number1 + " is odd");
-        }if (number1 == number2) {
+        }
+        
+        if (number1 == number2) {
             System.out.println("");
         } else if (number2 %2 == 0) {
             System.out.println(number2 + " is even");
