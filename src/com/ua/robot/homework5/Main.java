@@ -2,8 +2,8 @@ package com.ua.robot.homework5;
 
 public class Main {
     public static void main(String[] args) {
-        int number1 = -100;
-        int number2 = 800;
+        int number1 = 30;
+        int number2 = 30;
 
         if (number1 > number2) {
             System.out.println(number1 + " is grater than " + number2);
@@ -28,6 +28,7 @@ public class Main {
         } else {
             System.out.println(number1 + " is odd");
         }
+
         if (number1 == number2) {
             System.out.println("");
         } else if (number2 %2 == 0) {
