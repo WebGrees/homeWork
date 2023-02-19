@@ -4,14 +4,14 @@ public class Truck extends Vehicle {
     private int loadCapacity;
     private String vehicleType;
 
-    public int getLoadCapacity() {
-        return loadCapacity;
-    }
-
     public Truck(String color, int year, int loadCapacity, String vehicleType) {
         super(color, year);
         this.loadCapacity = loadCapacity;
         this.vehicleType = vehicleType;
+    }
+    
+    public int getLoadCapacity() {
+        return loadCapacity;
     }
 
     public void setLoadCapacity(int loadCapacity) {
